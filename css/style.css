@@ -1,0 +1,139 @@
+* {
+  border: 2px;
+  border-color: black;
+  border-style: solid;
+}
+header {
+  /* height: 80px;
+  width: 800px; */
+  display: flex;
+  background-color: cadetblue;
+}
+body {
+  background-color: rgb(233, 235, 238);
+  margin: 0;
+}
+#headerimage {
+  /* max-width: 100%;
+  max-height: 100%;
+  object-fit: cover; */
+}
+/* nav {
+  display: flex;
+  flex-direction: column;
+} */
+
+.nav-container {
+  margin: 3px 0 0 0;
+  display: flex;
+  justify-content: space-around;
+  /* justify-content: right; */
+  background-color: gray;
+}
+
+.nav-container > a {
+  text-decoration: none;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: 1.5em;
+  width: 200px;
+  padding: 5px; /* this is how i changed the height of the link - padding is the space around the text which changed the height of the a*/
+  background-color: blue;
+  border-radius: 15px;
+  /* border:none; */
+  transition: background-color 500ms;
+}
+.nav-container > a:hover {
+  background-color: yellow;
+  /* width: 250px; */
+}
+
+.nav-link {
+  transition: background-color 3s, width 3s;
+  /* Color timing working but width timing not??? */
+  transition: 3s;
+  transition: width 5s;
+  /* Look at css vendor prefixes */
+} 
+
+/* .nav-link > a:hover {
+  background-color:red;
+  width: 250px; 
+} */
+
+.button1 {
+  height: 25px;
+  width: 300px;
+  transition: 500ms linear;
+}
+
+.button1:hover {
+  color: brown;
+  background-color: chartreuse;
+  transform: rotate(360deg);
+}
+
+/* .button1:active {
+  background-color: powderblue;
+  transform: rotate(360deg);
+} */
+
+main {
+  display: flex;
+  /* margin: 5%; */
+  margin: 3px 0 0 0;
+  background-color:limegreen;
+}
+
+main img {
+  width: 20vw;
+  margin: 20px;
+}
+
+main > article {
+  font-size: 3vh;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+}
+
+main > article:hover {
+  background-color: peru;
+}
+
+main > article > p:hover {
+  background-color: lightblue;
+  border: 10px;
+  border-color: blue;
+  border-style: dotted;
+}
+
+h2:active {
+  filter: opacity(0);
+}
+
+/* h2:hover {
+  filter: opacity(0);
+} */
+
+footer {
+  background-color: antiquewhite;
+  overflow: auto;
+  text-align: center;
+}
+
+footer i {
+  padding: 5px;
+  font-size: 3em;
+}
+
+footer i:hover {
+  color: purple;
+}
+
+@media only screen and (max-width: 1000px) {
+
+  main {
+    background-color: purple;
+  }
+}

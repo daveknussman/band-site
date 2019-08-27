@@ -1,12 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-    <h1>New Heading</h1>  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.10.1/css/all.css"
+      integrity="sha384-wxqG4glGB3nlqX0bi23nmgwCSjWIW13BdLUEYC4VIMehfbcro/ATkyDsF/AbIOVe"
+      crossorigin="anonymous"/>
+    <title>Basic Webpage</title>
+  </head>
+  <body>
+    <header>
+      <img id="headerimage" src="https://picsum.photos/1000/100" alt="header image"/>
+    </header>
+    <nav class="nav-container">
+        <a class="nav-link" href="pages/about.html" alt="About Page">About</a>
+        <a class="nav-link" href="pages/gallery.html" alt="Photo Gallery Page">Gallery</a>
+        <a class="nav-link" href="pages/another.html" alt="Another Page">Another Page</a>
+      <!-- <div class="nav-container"> -->
+        <!-- <a href="pages/about.html" alt="About Page" title="About Page"
+          ><div class="nav-link">About</div></a>
+        <a href="pages/gallery.html" alt="Photo Gallery Page"
+          ><div class="nav-link">Gallery</div></a>
+        <a href="pages/another.html" alt="Another Page"
+          ><div class="nav-link">Another Page</div></a> -->
+      <!-- </div> -->
+      </nav>
+
+    <main>
+      <article>
+        <h2>Section Title</h2>
+        <p>
+          Anim quis ex laboris voluptate mollit aliqua sit aliquip occaecat sit
+          commodo est ea. Minim reprehenderit adipisicing pariatur ad ea
+          pariatur non sit minim culpa non exercitation enim. Consequat magna
+          sint mollit dolore adipisicing deserunt occaecat enim Lorem.
+          Consectetur dolor tempor irure consectetur cupidatat est laborum.
+          Minim aliquip cillum ut laboris nisi sint in aute in minim incididunt
+          eiusmod.
+        </p>
+        <p>
+          Sit laborum irure eu veniam sit aliquip esse nulla labore exercitation
+          tempor nostrud qui. Excepteur excepteur ad laboris incididunt
+          consectetur ullamco. Irure eiusmod ex commodo minim excepteur veniam
+          do deserunt pariatur voluptate excepteur eu sint amet. Ea veniam duis
+          occaecat irure ea eiusmod dolore reprehenderit. Minim adipisicing
+          incididunt fugiat laboris aute dolore consectetur aliquip eu sit quis
+          qui aliqua. Non minim ullamco dolor sit mollit anim deserunt laboris
+          in cillum deserunt ut consequat. Esse velit sunt irure aliquip duis
+          officia incididunt nulla. Aliqua quis eiusmod ad nostrud sit.
+        </p>
+        <p>
+          Ad irure eu nulla id esse. Sint quis ad aliqua veniam exercitation
+          dolor excepteur et nostrud laboris. Eiusmod consequat tempor
+          incididunt commodo pariatur occaecat et et irure consequat laborum do
+          in. Eu anim consectetur officia nulla incididunt nulla mollit
+          consequat enim sint incididunt eiusmod reprehenderit. Consectetur
+          officia labore dolor ullamco consequat. Dolor cupidatat occaecat
+          consectetur eiusmod eu eu. Eu culpa sit ullamco eu eiusmod.
+        </p>
+
+        <button class="button1" onclick="alertbox('button1')">Click this Button</button>
+        
+      </article>
+      <div>
+        <img src="https://picsum.photos/500" alt="" />
+        <img src="https://picsum.photos/500" alt="" />
+      </div>
+    </main>
+
+    <footer>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-facebook-square"></i>
+      <i class="fab fa-twitter-square"></i>
+    </footer>
+  </body>
+  <script type='text/javascript' src='js/script.js'></script>
 </html>
