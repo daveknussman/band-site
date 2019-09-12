@@ -104,6 +104,7 @@ main img {
 }
 
 main > article {
+  width: 75vw;
   font-size: 3vh;
   font-family: Arial, Helvetica, sans-serif;
   padding: 20px;
@@ -113,6 +114,9 @@ main > article {
   /* background-image: "images/wallpaper1.jpg" */
 }
 
+.rightpanel {
+  width:25vw;
+}
 /* main > article:hover {
   background-color: peru;
 }
@@ -132,6 +136,22 @@ h2:active {
   filter: opacity(0);
 } */
 
+.gallery {
+  display: flex;
+  flex-direction: column;
+}
+
+.row1 .row2 .row3 {
+  display: flex;
+  flex-direction: row;
+  height : 500px;
+}
+
+.row1 img {
+  height: auto;
+}
+
+
 footer {
   background-color: antiquewhite;
   overflow: auto;
@@ -148,7 +168,7 @@ footer i:hover {
 }
 
 .tour {
-  width: 75vw;
+  /* width: 75vw; */
   display:flex;
   justify-content: center;
   flex-direction: column;
